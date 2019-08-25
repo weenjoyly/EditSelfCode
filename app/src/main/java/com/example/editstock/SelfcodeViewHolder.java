@@ -1,7 +1,6 @@
 package com.example.editstock;
 
 import android.graphics.Color;
-import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -55,15 +54,9 @@ public class SelfcodeViewHolder extends RecyclerView.ViewHolder {
         textViewList.add((TextView) itemView.findViewById(R.id.item29));
         textViewList.add((TextView) itemView.findViewById(R.id.item30));
         textViewList.add((TextView) itemView.findViewById(R.id.item31));
-        horizontalScrollView = (HorizontalScrollView) itemView.findViewById(R.id.scroller);
+        horizontalScrollView = itemView.findViewById(R.id.scroller);
         name = itemView.findViewById(R.id.name);
         horizontalScrollView.setHorizontalScrollBarEnabled(false);
-    }
-
-    public void setOnScrollChangeListener(View.OnScrollChangeListener l) {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            horizontalScrollView.setOnScrollChangeListener(l);
-        }
     }
 
     public void update(List<String> list) {

@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 import android.widget.HorizontalScrollView;
 
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
@@ -23,9 +22,9 @@ import io.reactivex.schedulers.Schedulers;
 
 public class SelfcodeAdapter extends RecyclerView.Adapter implements View.OnScrollChangeListener {
 
-    List<List<String>> list;
-    Set<HorizontalScrollView> set;
-    int dx;
+    private List<List<String>> list;
+    private Set<HorizontalScrollView> set;
+    private int dx;
 
     public SelfcodeAdapter() {
         Observable.create(new ObservableOnSubscribe<List<List<String>>>() {
@@ -33,6 +32,9 @@ public class SelfcodeAdapter extends RecyclerView.Adapter implements View.OnScro
             public void subscribe(ObservableEmitter<List<List<String>>> emitter) throws Exception {
                 SelfcodeModel model = new SelfcodeModel();
                 List<List<String>> list = model.getData();
+                if (list == null) {
+                    return;
+                }
                 emitter.onNext(list);
                 emitter.onComplete();
             }
@@ -62,7 +64,7 @@ public class SelfcodeAdapter extends RecyclerView.Adapter implements View.OnScro
         SelfcodeViewHolder selfcodeViewHolder = (SelfcodeViewHolder) viewHolder;
         selfcodeViewHolder.update(list.get(i));
         addHorizontalScrollView(selfcodeViewHolder.horizontalScrollView);
-        selfcodeViewHolder.horizontalScrollView.scrollTo(dx,0);
+        selfcodeViewHolder.horizontalScrollView.scrollTo(dx, 0);
     }
 
     private void addHorizontalScrollView(HorizontalScrollView scrollView) {
@@ -78,9 +80,8 @@ public class SelfcodeAdapter extends RecyclerView.Adapter implements View.OnScro
     }
 
     public void scrollTo(int dx) {
-        Iterator<HorizontalScrollView> iterator = set.iterator();
-        while (iterator.hasNext()) {
-            iterator.next().scrollTo(dx, 0);
+        for (HorizontalScrollView scrollView : set) {
+            scrollView.scrollTo(dx, 0);
         }
     }
 

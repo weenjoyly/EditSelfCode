@@ -9,7 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 public class StockDivideItemDecoration extends RecyclerView.ItemDecoration {
-    Paint paint;
+    private Paint paint;
     public static final int DIVIDE_HEIGHT = 2;
 
     public StockDivideItemDecoration() {
