@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="@dimen/name_width"
+        android:layout_height="@dimen/name_height"
+        android:text="股票名称" />
+
+    <HorizontalScrollView
+        android:id="@+id/scroller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/item1"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="item1" />
+
+            <TextView
+                android:id="@+id/item2"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="item2" />
+
+            <TextView
+                android:id="@+id/item3"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="item3" />
+
+            <TextView
+                android:id="@+id/item4"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="item4" />
+
+            <TextView
+                android:id="@+id/item5"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="item5" />
+
+            <TextView
+                android:id="@+id/item6"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="item6" />
+
+            <TextView
+                android:id="@+id/item7"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="item7" />
+
+            <TextView
+                android:id="@+id/item8"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="item8" />
+
+            <TextView
+                android:id="@+id/item9"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="item9" />
+
+            <TextView
+                android:id="@+id/item10"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="item10" />
+
+            <TextView
+                android:id="@+id/item11"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="item11" />
+
+            <TextView
+                android:id="@+id/item12"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="item5" />
+
+            <TextView
+                android:id="@+id/item13"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="item13" />
+
+            <TextView
+                android:id="@+id/item14"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="item14" />
+
+            <TextView
+                android:id="@+id/item15"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="item15" />
+
+
+            <TextView
+                android:id="@+id/item16"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="买4量" />
+
+            <TextView
+                android:id="@+id/item17"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="买4量" />
+
+            <TextView
+                android:id="@+id/item18"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="买4量" />
+
+            <TextView
+                android:id="@+id/item19"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="买4量" />
+
+            <TextView
+                android:id="@+id/item20"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="买4量" />
+
+            <TextView
+                android:id="@+id/item21"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="买4量" />
+
+            <TextView
+                android:id="@+id/item22"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="买4量" />
+
+            <TextView
+                android:id="@+id/item23"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="买4量" />
+
+            <TextView
+                android:id="@+id/item24"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="买4量" />
+
+            <TextView
+                android:id="@+id/item25"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="买4量" />
+
+            <TextView
+                android:id="@+id/item26"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="买4量" />
+
+            <TextView
+                android:id="@+id/item27"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="买4量" />
+
+            <TextView
+                android:id="@+id/item28"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="买4量" />
+
+            <TextView
+                android:id="@+id/item29"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="买4量" />
+
+            <TextView
+                android:id="@+id/item30"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="买4量" />
+            <TextView
+                android:id="@+id/item31"
+                android:layout_width="@dimen/item_width"
+                android:layout_height="@dimen/item_height"
+                android:text="买4量" />
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+
+</LinearLayout>

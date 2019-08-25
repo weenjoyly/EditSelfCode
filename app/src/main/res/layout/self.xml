@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/name_width"
+            android:layout_height="@dimen/name_height"
+            android:text="股票名称" />
+
+        <HorizontalScrollView
+            android:id="@+id/scroller"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:id="@+id/item1"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="今开" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:id="@+id/item2"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="昨收" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:id="@+id/item3"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="最新" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:id="@+id/item4"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="最高" />
+
+                <TextView
+                    android:id="@+id/item5"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="最低" />
+
+                <TextView
+                    android:id="@+id/item6"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="买1" />
+
+                <TextView
+                    android:id="@+id/item7"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="卖1" />
+
+                <TextView
+                    android:id="@+id/item8"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="成交量" />
+
+                <TextView
+                    android:id="@+id/item9"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="成交额" />
+
+                <TextView
+                    android:id="@+id/item10"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="买1量" />
+
+                <TextView
+                    android:id="@+id/item11"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="买1价" />
+
+                <TextView
+                    android:id="@+id/item12"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="买2量" />
+
+                <TextView
+                    android:id="@+id/item13"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="买2价" />
+
+                <TextView
+                    android:id="@+id/item14"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="买3量" />
+
+                <TextView
+                    android:id="@+id/item15"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="买3价" />
+
+                <TextView
+                    android:id="@+id/item16"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="买4量" />
+                <TextView
+                    android:id="@+id/item17"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="买4价" />
+                <TextView
+                    android:id="@+id/item18"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="买5量" />
+                <TextView
+                    android:id="@+id/item19"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="买5价" />
+                <TextView
+                    android:id="@+id/item20"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="卖1量" />
+                <TextView
+                    android:id="@+id/item21"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="卖1价" />
+                <TextView
+                    android:id="@+id/item22"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="卖2量" />
+                <TextView
+                    android:id="@+id/item23"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="卖2价" />
+                <TextView
+                    android:id="@+id/item24"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="卖3量" />
+                <TextView
+                    android:id="@+id/item25"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="卖3价" />
+                <TextView
+                    android:id="@+id/item26"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="卖4量" />
+                <TextView
+                    android:id="@+id/item27"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="卖4价" />
+
+                <TextView
+                    android:id="@+id/item28"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="卖5量" />
+                <TextView
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:id="@+id/item29"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="卖5价" />
+                <TextView
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:id="@+id/item30"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="日期" />
+                <TextView
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:id="@+id/item31"
+                    android:layout_width="@dimen/item_width"
+                    android:layout_height="@dimen/item_height"
+                    android:text="时间" />
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
